@@ -25,6 +25,18 @@ I'm 22 years old. I graduated from BNTU in 2023. Now I work as a software engine
 
 
 
+## Code Examples ##
+
+```
+public static void printArrayReverse(int[] values) {
+        for (int i = values.length - 1; i >= 0; i--) {
+            System.out.print(values[i] + " ");
+        }
+        System.out.println();
+    }
+```
+
+
 ## Languages ##
 
 
