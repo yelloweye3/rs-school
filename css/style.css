@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    display: block;
+    background-color: #C0D8DE;
+    border-radius: 5px;
+
+}
+
+.logoContainer {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logoContainer h1 {
+    color: black;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: 20;
+    font-family: "Marker Felt, fantasy";
+}
+
+.logoContainer h1 span {
+    font-weight: 1000;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 40px;
+    color: black;
+    font-family: "Marker Felt, fantasy";
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+body {
+    margin: 0 15%;
+}
+
+img {
+    display: block;
+    width: 90%;
+    border-radius: 40%;
+    margin-bottom: 0.4vw;
+    margin-top: 0.02vw;
+}
+
+hr {
+    border-top: 1px rgb(30, 30, 30) solid;
+    width: 100%;
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+}
+
+h1 {
+    font-family: "Marker Felt, fantasy";
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 0.5vw;
+}
+
+h2 {
+    font-family: "Marker Felt, fantasy";
+    font-weight: 600;
+    font-size: 1.6em;
+    letter-spacing: 0.2vw;
+}
+
+h3 {
+    font-family: "Lato";
+    font-size: 1em;
+    margin: 0;
+}
+
+h4 {
+    font-family: "Marker Felt, fantasy";
+    font-size: 0.9em;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.left {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.right {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5vw;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.leftColumn {
+    width: 35%;
+}
+
+.leftRow {
+    position: relative;
+    margin: 0px;
+    padding-bottom: 80px;
+    letter-spacing: 0.06vw;
+    font-size: 0.85vw;
+    font-family: "Marker Felt, fantasy";
+    border-radius: 30px;
+}
+
+#myName {
+    color: #C0D8DE;
+    font-family: "Marker Felt, fantasy";
+    font-size: 1.8vw;
+    font-weight: 800;
+    position: absolute;
+    z-index: 2;
+    top: 19vw;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.2em;
+    line-height: 2.5vw;
+}
+
+#LeftBottom {
+    top: -3.4vw;
+    padding: 0 2.5vw 3.4vw 2.5vw;
+    margin: 0;
+    background-color: #C0D8DE;
+}
+
+.skills {
+    position: relative;
+    background-color: white;
+    margin-bottom: 0.5vw;
+    padding: 0.3vw;
+    font-size: .7vw;
+}
+
+.skillBar {
+    position: absolute;
+    border-top: 8px rgb(70, 70, 70) solid;
+    top: 0.175vw;
+    margin-left: 50%;
+    max-width: 48%;
+}
+
+#javaSkill {
+    width: 25%;
+}
+
+#htmlSkill {
+    width: 35%;
+}
+
+#cssSkill {
+    width: 30%;
+}
+
+#jsFund {
+    width: 27%;
+}
+
+#gitSkill {
+    width: 35%;
+}
+
+#communcSkill {
+    width: 40%;
+}
+
+#coopSkill {
+    width: 45%;
+}
+
+#leadSkill {
+    width: 40%;
+}
+
+#adaptSkill {
+    width: 45%;
+}
+
+.rightColumn {
+    width: 65%;
+    flex: none;
+}
+
+.rightRow {
+    padding: 2vw 3vw;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+pre {
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    font-family: "Marker Felt, fantasy";
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.rightText {
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    font-family: "Marker Felt, fantasy";
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#rightHead {
+    background-color: rgb(213, 213, 215);
+}
+
+.containerMain {
+    display: flex;
+    padding: 0vw 2vw;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.years {
+    border: 1px solid black;
+    background: #C0D8DE;
+    border-radius: 2vw;
+    width: 18%;
+    height: 2.9vw;
+    text-align: center;
+    margin: 1vw 5% 0.1vw 2%;
+    padding: 0.55vw 0.2vw 0.2vw 0.2vw;
+}
+
+.textMain {
+    width: 82%;
+    padding: 0.3vw;
+}
+
+.containerText {
+    display: flex;
+    padding: 0vw 2vw;
+    align-items: center;
+    margin-bottom: 1vw;
+    padding-left: 4.1vw;
+    min-height: 0;
+}
+
+.verticalLines {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    min-height: 4.8vw;
+    width: 1.2%;
+    margin: 0 0.2vw;
+    text-align: center;
+}
+
+.verticalLinesEdu {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    min-height: 6vw;
+    width: 1.2%;
+    margin: 0 0.2vw;
+    text-align: center;
+}
+
+.aboutText {
+    width: 80%;
+    padding: 0.3vw;
+    margin-left: 3.3vw;
+    font-family: "Lato";
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+
+.footer {
+    width: 100%;
+    height: 108px;
+    display: block;
+    background-color: rgb(213, 213, 215);
+    border-radius: 5px;
+
+
+}
+
+.footerContainer {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.footerContainer h1 {
+    color: black;
+    height: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 26px;
+    font-weight: 20;
+    font-family: cursive;
+}
+
+
+.footerNav {
+    float: right;
+    height: 100%;
+}
+
+.footerNav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+
+}
+
+.footerNav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+
+
+}
+
+.gitFooterLink {
+    width: 100%;
+    height: 90px;
+}
+
+.svgRssLink {
+    width: 100%;
+    height: 100px;
+}
